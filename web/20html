@@ -1,0 +1,9 @@
+<script language="JavaScript">
+<!--
+var now = new Date();
+var then = new Date("may 1,2010");
+var gap = now.getTime() - then.getTime();
+gap = Math.floor(gap / (1000 * 60 * 60 * 24));
+document.write("이피누리 만들어진지" + gap + "째 되는 날입니다");
+// -- >
+</script>
